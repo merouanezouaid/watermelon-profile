@@ -29,7 +29,7 @@ export default function Home() {
       const formData = new FormData();
       formData.append('image', croppedImage);
 
-      const response = await fetch('http://localhost:5328/process_image', {
+      const response = await fetch('./api/process_image', {
         method: 'POST',
         body: formData,
       });

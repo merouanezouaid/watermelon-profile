@@ -58,10 +58,6 @@ def process_image(image_file):
     palestine_bg = "https://flagdownload.com/wp-content/uploads/Flag_of_Palestine_Flat_Round-1024x1024.png"
     background_img = Image.open(BytesIO(requests.get(palestine_bg).content))
 
-
-    palestine_bg = "https://flagdownload.com/wp-content/uploads/Flag_of_Palestine_Flat_Round-1024x1024.png"
-    background_img = Image.open(BytesIO(requests.get(palestine_bg).content))
-
     # Create a semi-transparent overlay
     overlay = Image.new('RGBA', background_img.size, (0, 0, 0, 120))  # Adjust the last value (120) to control transparency
     background_img = Image.alpha_composite(background_img.convert('RGBA'), overlay)
