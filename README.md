@@ -58,7 +58,7 @@ npm install
 1. In development mode:
 
 ```bash
-npm run dev # it'll install the server dependencies then run the server and the front
+npm run dev    # this will install the server dependencies then run the server and the front
 ```
 
 3. Open your web browser and navigate to `http://localhost:3000` to access the application.
