@@ -11,6 +11,10 @@ This project is a web application that allows users to upload their profile pict
 
 The resulting image combines the user's profile picture with the Palestinian flag as a background.
 
+Demo: https://huggingface.co/spaces/ThinkAI-Morocco/watermelon_pfp
+
+We're planning to switch to deploy the website on vercel with nextjs and flask
+
 ## Features
 
 - Select and upload a profile picture
