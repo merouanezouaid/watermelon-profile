@@ -12,6 +12,9 @@
 /.next/
 /out/
 
+/original
+/masked
+
 # production
 /build
 
