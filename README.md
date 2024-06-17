@@ -1,7 +1,7 @@
 
 # Watermelon Profile Picture Generator
 
-<img width="100" height="100" src="https://flagdownload.com/wp-content/uploads/Flag_of_Palestine_Flat_Round.png" />
+<img width="100" height="100" src="https://flagdownload.com/wp-content/uploads/Flag_of_Palestine_Flat_Round.png"  alt="palestine"/>
 
 ## Description
 
@@ -13,7 +13,7 @@ The resulting image combines the user's profile picture with the Palestinian fla
 
 Demo: https://huggingface.co/spaces/ThinkAI-Morocco/watermelon_pfp
 
-We're planning to switch to deploy the website on vercel with nextjs and flask
+We're planning to switch to deploy the website on Vercel with Next.js and Flask
 
 ## Features
 
@@ -47,25 +47,25 @@ We're planning to switch to deploy the website on vercel with nextjs and flask
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/your-username/watermelon-pfp-generator.git
-```
+   ```bash
+   git clone https://github.com/merouanezouaid/watermelon-pfp-generator.git
+   ```
 
 2. Install dependencies:
 
-```bash
-npm install
-```
+   ```bash
+   npm run install-dev
+   ```
 
 ### Running the Application
 
 1. In development mode:
+ 
+   ```bash
+   npm run dev
+   ```
 
-```bash
-npm run dev    # this will install the server dependencies then run the server and the front
-```
-
-3. Open your web browser and navigate to `http://localhost:3000` to access the application.
+2. Open your web browser and navigate to `http://localhost:3000` to access the application.
 
 ## Contributing
 
@@ -75,4 +75,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 This project is licensed under the [MIT License](LICENSE).
 
-Free Palestine 🍉 from Morocco.
+Free Palestine 🍉! From Morocco 🇲🇦.

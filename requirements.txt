@@ -4,3 +4,4 @@ streamlit
 rembg
 requests
 Pillow
+flask_cors
